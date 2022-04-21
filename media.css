@@ -1,0 +1,209 @@
+@media (max-width: 1300px) {
+    h2 { 
+        font-size: 2rem;
+    }
+}
+@media (max-width: 1000px){
+
+    .imagens {
+    width: 170px;
+    height: 170px;
+    font-size: 40px;
+    padding-top: -100px;
+ }
+
+ h3{
+     font-size: 50px;
+     padding-top: 170px;
+ }
+ .fotos1 {
+    
+    margin-top: 50px;  
+}
+
+.fotos2 {
+    margin-bottom: 70px;
+}
+@media (max-width: 1000px) {
+    h3 {
+        font-size: 35px;
+    }
+}
+
+
+@media (max-width: 811px) {
+    h2 {
+        
+        font-size: 1.7rem;
+    }
+    
+}
+@media (max-width: 790px) {
+    .logo {
+        width: 160px;
+        height: 140px;
+    }
+    h1 {
+         left: 12px;
+         font-size: 25px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    
+} 
+@media (max-width: 750px) {
+
+    h2 {
+
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+    .teste2 {
+       display: none;
+    }
+    
+    }
+    #corpo {
+        display: flex;
+        flex-direction: row;      
+        
+    }
+    .fotos1 , .fotos2{
+        display: flex;
+        flex-direction: column;
+    }
+    .fotos1 {
+        margin-top: 5px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .fotos2 {
+        margin-right: 100px;
+        margin-top: 24px;
+    }
+
+    h3 {
+        padding-top: 135px;
+    }
+    .imagens:hover {
+        width: 200px;
+        height: 200px;
+        transition: 0.3s;
+    }
+    
+@media (max-width: 600px) {
+
+    header {
+        height: 150px;
+    }
+
+    .logo {
+        margin-left: -20px;
+        margin-bottom: 20px;
+    }
+    .logo:hover {
+        width: 160px;
+        height: 150px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .perso {
+        font-size: 20px;
+    }
+    h1 {
+        margin-left: -10px;
+    }
+
+    nav i {
+        font-size: 20px;
+    }
+    h3 {
+        padding-top: 120px;
+    }
+
+    }
+
+@media (max-width: 580px) {
+    .teste2 {
+        display: none;
+    }
+
+    .fotos1 {
+        margin-top: 32px;
+        margin-left: -40px;
+        margin-bottom: 50px;
+    }
+    .fotos2 {
+        margin-right: 100px;
+        margin-top: 54px;
+    }
+    .imagens:hover {
+        width: 200px;
+        height: 200px;
+        transition: 0.3s;
+    }
+
+    h3 {
+        padding-top: 120px;
+    }
+    
+    nav a {
+        text-align: center;
+    }
+    h1:hover {
+        font-size: 28px;
+    }
+}
+@media (max-width: 532px) {
+    nav i {
+        display: none;
+    }
+}
+@media (max-width: 450px) {
+
+    header {
+        width: 100%;
+    }
+
+    .fotos2{
+        
+    }
+    #corpo {
+        display: flex;
+        flex-direction: row;
+    }
+    .fotos1 {
+        margin-left: -50px;
+    }
+    .fotos2 {
+        margin-left: -40px;
+    }
+    .direitos {
+        font-size: 20px;
+        width: 400px;
+    }
+
+}
+@media (max-width: 375px) {
+
+    .fotos2 {
+     margin-left: -60px; }
+
+    .direitos {
+     font-size: 15px;
+     width: 350px;}
+        
+     h2{
+     font-size: 20px;}
+
+     .fotos1 { 
+     margin-left: -60px;}
+
+}
