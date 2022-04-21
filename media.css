@@ -13,7 +13,7 @@
  }
 
  h3{
-     font-size: 50px;
+     font-size: 35px;
      padding-top: 170px;
  }
  .fotos1 {
@@ -23,11 +23,7 @@
 
 .fotos2 {
     margin-bottom: 70px;
-}
-@media (max-width: 1000px) {
-    h3 {
-        font-size: 35px;
-    }
+}  
 }
 
 
@@ -66,7 +62,7 @@
        display: none;
     }
     
-    }
+    
     #corpo {
         display: flex;
         flex-direction: row;      
@@ -94,6 +90,7 @@
         height: 200px;
         transition: 0.3s;
     }
+}
     
 @media (max-width: 600px) {
 
