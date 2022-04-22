@@ -6,8 +6,14 @@
 @media (max-width: 1000px){
 
     .imagens {
-    width: 170px;
-    height: 170px;
+    width: 180px;
+    height: 180px;
+    font-size: 40px;
+    padding-top: -100px;
+ }
+ .imagens:hover {
+    width: 200px;
+    height: 200px;
     font-size: 40px;
     padding-top: -100px;
  }
@@ -53,6 +59,10 @@
 } 
 @media (max-width: 750px) {
 
+    .imagens {
+        margin-top: 10px;
+    }
+
     h2 {
 
         margin-bottom: 50px;
@@ -73,13 +83,14 @@
         flex-direction: column;
     }
     .fotos1 {
-        margin-top: 5px;
+        margin-top: 40px;
         margin-left: 50px;
         margin-bottom: 50px;
     }
     .fotos2 {
+
         margin-right: 100px;
-        margin-top: 24px;
+        margin-top: 60px;
     }
 
     h3 {
@@ -177,7 +188,7 @@
         flex-direction: row;
     }
     .fotos1 {
-        margin-left: -50px;
+        margin-left: -65px;
     }
     .fotos2 {
         margin-left: -40px;
@@ -186,12 +197,21 @@
         font-size: 20px;
         width: 400px;
     }
+}
 
+@media (max-width: 400px) {
+    h2 {
+        font-size: 25px;
+    }
+    .fotos2 {
+        margin-left: -60px;
+    }
 }
 @media (max-width: 375px) {
 
     .fotos2 {
-     margin-left: -60px; }
+     margin-left: -60px;
+    margin-top: 55px; }
 
     .direitos {
      font-size: 15px;
@@ -201,6 +221,8 @@
      font-size: 20px;}
 
      .fotos1 { 
-     margin-left: -60px;}
+     margin-left: -70px;}
+
+
 
 }
